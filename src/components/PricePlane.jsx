@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { PLANS_CONTENT } from "../constants";
-import { div } from "framer-motion/client";
 
 const PricePlane = () => {
   const childVariants = {

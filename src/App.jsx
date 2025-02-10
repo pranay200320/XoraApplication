@@ -1,8 +1,10 @@
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import HowItsWorks from "./components/HowItsWorks";
 import KeyFeture from "./components/KeyFeture";
 import Navbar from "./components/Navbar";
 import PricePlane from "./components/PricePlane";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <HowItsWorks />
         <KeyFeture />
         <PricePlane />
+        <Testimonials />
+        <Footer />
       </main>
     </>
   );
